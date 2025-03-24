@@ -43,6 +43,7 @@ h2 {
   background-image: url(/lounge/images/cocktail.gif);
   background-repeat: repeat-x;
   line-height: 1;
+  float: right;
 }
 #elixirs h2 {
   color: black;
@@ -63,11 +64,24 @@ h2 {
   font-weight: bold;
 }
 a:link {
-  color: green;
+  color: #007e7e;
 }
 a:visited {
-  color: red;
+  color: #333;
 }
-a:hover {
-  color: yellow;
+#elixirs a:link {
+  color: #007e7e;
+}
+#elixirs a:visited {
+  color: #333;
+}
+#elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
+}
+#detailed a:link {
+  color: #007e7e;
+}
+#detailed a:visited {
+  color: #333;
 }
